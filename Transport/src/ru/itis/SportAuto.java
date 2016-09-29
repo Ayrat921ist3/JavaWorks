@@ -13,4 +13,9 @@ public class SportAuto extends Auto{
     public void go() {
         System.out.println("I'm SportCar");
     }
+
+    @Override
+    public String toString() {
+        return "Sport car";
+    }
 }

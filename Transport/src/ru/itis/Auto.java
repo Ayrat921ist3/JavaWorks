@@ -16,4 +16,9 @@ public class Auto extends Transport {
     public void go() {
         System.out.println("I'm auto");
     }
+
+    @Override
+    public String toString() {
+        return "Auto";
+    }
 }

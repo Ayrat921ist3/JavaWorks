@@ -13,4 +13,9 @@ public class Bike extends Transport {
     public void go() {
         System.out.println("I'm Bike");
     }
+
+    @Override
+    public String toString() {
+        return "Bike";
+    }
 }

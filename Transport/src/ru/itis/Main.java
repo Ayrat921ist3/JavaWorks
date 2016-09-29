@@ -24,7 +24,7 @@ public class Main {
         transports.add(bike);
         transports.add(new Auto(8, 95));
 
-        find(transports).go();
+        System.out.println(find(transports).toString());
     }
 
     private static Transport find(List<Transport> transports){

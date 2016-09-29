@@ -20,4 +20,9 @@ public abstract class Transport {
     }
 
     public abstract void go();
+
+    @Override
+    public String toString() {
+        return "Transport";
+    }
 }
